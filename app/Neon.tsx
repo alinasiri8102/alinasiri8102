@@ -2,13 +2,13 @@
 const Neon = (props:any) => {
     const {type, size, color} = props
 
-    const style = {
-        width: size,
-        height: size,
-        borderRadius: type == 'c' ? '50%' : '50px',
-        position: 'absolute',
-        zIndex: '-1'
-    }
+    const style ={
+            position: 'absolute',
+            zIndex: '-1',
+            width: size,
+            height: size,
+            borderRadius: type == 'c' ? '50%' : '50px',
+        } as React.CSSProperties
 
     return (
         <div 
