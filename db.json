@@ -1,0 +1,39 @@
+{
+    "person":{
+        "fullname" : "Ali Nasiri",
+        "email": "alinasiri8102@gmail.com",
+        "instagram": {
+            "username": "@alinasiri8102",
+            "url": "https://instagram.com/alinasiri8102"
+        },
+        "linkedin": {
+            "username": "in/alinasiri8102",
+            "url": "https://linkedin.com/in/alinasiri8102"
+        },
+        "telegram":{
+            "username": "@alinasiri8102",
+            "url": "https://t.me/alinasiri8102"
+        },
+        "github": {
+            "username": "@alinasiri8102",
+            "url": "https://github.com/alinasiri8102"
+        }
+    },
+    "projects":[
+        {
+            "id": "1" ,
+            "img": "/img/projects/test.jpg",
+            "url": "test1Testing.com"
+        },
+        {
+            "id": "2" ,
+            "img": "/img/projects/test.jpg",
+            "url": "test2Testing.com"
+        },
+        {
+            "id": "3" ,
+            "img": "/img/projects/test.jpg",
+            "url": "test3Testing.com"
+        }
+    ]
+}

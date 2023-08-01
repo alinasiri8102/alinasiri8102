@@ -1,0 +1,137 @@
+
+$dark-color: #1d1e2cff;
+$white-color: #f4f3eeff;
+
+$pr-color: #7393b3ff;
+$sc-color: #CDD6DD;
+$ac-color: #e83151ff;
+
+$bg-dark: rgba($dark-color, 1.0);
+$bg-light: rgba(lighten($bg-dark, $amount: 20), .5);
+$bg-pr: rgba($pr-color, .3);
+$bg-ac: rgba($ac-color, .6);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 1;
+}
+p, h1, h2, h3, h4, h5, h6, small, strong, div, a, span, svg, img{
+    color: $white-color;
+    &::selection{
+        background-color: $bg-ac;
+        color: $white-color;
+    }
+}
+h1, h2, h3, h4, h5, h6{
+    text-transform: capitalize;
+}
+p{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 18px;
+    line-height: 24px;
+    vertical-align: middle;
+
+    @media screen and (max-width:1280px) {
+        font-size: 16px;
+    }
+    @media screen and (max-width:768px) {
+        font-size: 14px;
+    }
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    object-fit: cover;
+    overflow: hidden;
+}
+html, body{
+    direction: ltr;
+    background-color: $bg-dark;
+    background-image: url(../public/img/noise.png);
+    background-position: 0 0;
+    background-size: 200px 200px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+.ac-color{
+    color: $ac-color;
+}
+
+.neon-pr{
+    border: 2px solid $pr-color;
+    box-shadow: 0 0 10px $pr-color, inset 0 0 10px $pr-color;
+
+}
+.neon-ac{
+    border: 2px solid $ac-color;
+    box-shadow: 0 0 10px $ac-color, inset 0 0 10px $ac-color;
+}
+
+.fix-width{
+    padding: 0px 50px;
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 1280px;
+    @media screen and (max-width:1280px) {
+        padding: 0px 20px;
+    }
+}
+
+.flex-h{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flex-v{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+button, .btn{
+    border: none;
+    background-color: unset;
+    border-radius: 5px;
+    width: max-content;
+    padding: 8px 15px;
+    font-size: 1em;
+}
+.btn-pr{
+    background-color: $bg-pr;
+    color: $white-color;
+}
+.btn-sc{
+    border: 2px solid $bg-pr;
+    color: $bg-pr;
+}
+.btn-white{
+    border: 2px solid $white-color;
+    color: $white-color;
+    transition: all .3s;
+    &:hover{
+        border: 2px solid $white-color;
+        background-color: $pr-color;
+        box-shadow: 0 0 20px $pr-color;
+    }
+}
+
+
+@import "./home.scss";
+@import "./footer.scss";
+
