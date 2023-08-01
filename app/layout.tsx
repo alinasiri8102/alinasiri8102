@@ -1,7 +1,7 @@
 import '../style/_globals.scss'
 import type { Metadata } from 'next'
 import { Josefin_Sans } from 'next/font/google'
-import Footer from './footer'
+import Footer from './Footer'
 
 const inter = Josefin_Sans({ subsets: ['latin'] })
 
