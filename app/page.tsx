@@ -60,7 +60,7 @@ export default function Home() {
                   I’m always curious to learn more when it comes to new technologies and creative coding.
                 </p>
               </div>
-              <a href="#contact" className="btn btn-white flex-h"><p>My Resume</p><IconArrowRight size={16} stroke={3}/></a>
+              <a href={person.resume} target='_blank' className="btn btn-white flex-h"><p>My Resume</p><IconArrowRight size={16} stroke={3}/></a>
             </div>
 
             <div className="icons flex-h">
