@@ -1,4 +1,4 @@
-
+import Image from 'next/image'
 import {IconMail, IconBrandInstagram, IconBrandDjango, IconBrandJavascript, IconCode, IconBrandHtml5, IconBrandNextjs, IconBrandCss3, IconUser, IconBrandReact, IconPalette, IconArrowUpRight, IconBrandTelegram, IconBrandGithub, IconBrandLinkedin, IconArrowRight, IconApi} from '@tabler/icons-react'
 
 import ProjectCard from './ProjectCard'
@@ -19,7 +19,7 @@ export default function Home() {
 
       <section className="hero fix-width flex-v">
 
-        <img src={heroVector.src} alt='codding vector'/>
+        <Image src={heroVector.src} alt='codding vector' priority width={400} height={400}/>
 
         <header className="head">
           <h1>{person.fullname}</h1>
