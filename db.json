@@ -1,40 +1,41 @@
 {
-    "person":{
-        "fullname" : "Ali Nasiri",
-        "email": "alinasiri8102@gmail.com",
-        "resume": "https://www.canva.com/design/DAFqYbbYU6I/9m_wfM4skVSr74xg0w0AtA/view",
-        "instagram": {
-            "username": "@alinasiri8102",
-            "url": "https://instagram.com/alinasiri8102"
-        },
-        "linkedin": {
-            "username": "in/alinasiri8102",
-            "url": "https://linkedin.com/in/alinasiri8102"
-        },
-        "telegram":{
-            "username": "@alinasiri8102",
-            "url": "https://t.me/alinasiri8102"
-        },
-        "github": {
-            "username": "@alinasiri8102",
-            "url": "https://github.com/alinasiri8102"
-        }
+  "person": {
+    "fullname": "Ali Nasiri",
+    "email": "alinasiri8102@gmail.com",
+    "resume": "https://www.canva.com/design/DAFqYbbYU6I/9m_wfM4skVSr74xg0w0AtA/view",
+    "instagram": {
+      "username": "@alinasiri8102",
+      "url": "https://instagram.com/alinasiri8102"
     },
-    "projects":[
-        {
-            "id": "1" ,
-            "img": "/img/projects/test.jpg",
-            "url": "test1Testing.com"
-        },
-        {
-            "id": "2" ,
-            "img": "/img/projects/test.jpg",
-            "url": "test2Testing.com"
-        },
-        {
-            "id": "3" ,
-            "img": "/img/projects/test.jpg",
-            "url": "test3Testing.com"
-        }
-    ]
+    "linkedin": {
+      "username": "in/alinasiri8102",
+      "url": "https://linkedin.com/in/alinasiri8102"
+    },
+    "telegram": {
+      "username": "@alinasiri8102",
+      "url": "https://t.me/alinasiri8102"
+    },
+    "github": {
+      "username": "@alinasiri8102",
+      "url": "https://github.com/alinasiri8102"
+    }
+  },
+  "projects": [
+    {
+      "id": "1",
+      "img": "/img/projects/filmemoon.svg",
+      "url": "filmemoon.primetm.ir"
+    },
+
+    {
+      "id": "3",
+      "img": "/img/projects/boroberim.svg",
+      "url": "boroberim.vercel.app"
+    },
+    {
+      "id": "2",
+      "img": "/img/projects/eightoclock.svg",
+      "url": "eightoclock.ir"
+    }
+  ]
 }
