@@ -29,13 +29,13 @@
 
     {
       "id": "2",
-      "img": "/img/projects/boroberim.svg",
-      "url": "boroberim.vercel.app"
+      "img": "/img/projects/garcino.svg",
+      "url": "garcino.ir"
     },
     {
       "id": "3",
-      "img": "/img/projects/eightoclock.svg",
-      "url": "eightoclock.ir"
+      "img": "/img/projects/turboping.svg",
+      "url": "turboping.ir"
     }
   ]
 }
