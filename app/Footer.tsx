@@ -12,8 +12,9 @@ const Footer = () => {
   }, []);
   return (
     <footer className="flex-h">
-      <IconCopyright />
-      <p>CopyRight {year}</p>
+      {/* <IconCopyright />
+      <p>CopyRight {year}</p> */}
+      <p>designed to impress, coded to survive :)</p>
     </footer>
   );
 };
